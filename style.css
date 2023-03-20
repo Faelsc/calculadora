@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Spartan', sans-serif;
+	color: hsl(221, 14%, 31%);
+	font-weight: 700;
+}
+
+:root{
+	--mainbgcolor: hsl(222, 26%, 31%);
+	--mainbg1color: hsl(0, 0%, 90%);
+	--mainbg2color: hsl(268, 75%, 9%);
+	--twotkbg: hsl(0, 5%, 81%);
+	--tbgkbgsbg: hsl(268, 71%, 12%);
+}
