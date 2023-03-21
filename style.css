@@ -9,9 +9,30 @@
 }
 
 :root{
-	--mainbgcolor: hsl(222, 26%, 31%);
-	--mainbg1color: hsl(0, 0%, 90%);
-	--mainbg2color: hsl(268, 75%, 9%);
-	--twotkbg: hsl(0, 5%, 81%);
-	--tbgkbgsbg: hsl(268, 71%, 12%);
+	--color1: hsl(222, 26%, 31%);
+	--color2: hsl(0, 0%, 90%);
+	--color3: hsl(268, 75%, 9%);
+	--color4: hsl(0, 5%, 81%);
+	--color5: hsl(268, 71%, 12%);
+}
+
+body{
+	width: 100%;
+	max-width: 1440px;
+	background-color: var(--color1);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+body.active1{
+	background-color: var(--color2);
+}
+body.active1 .btn{
+	background-color: var(--color4);
+}
+body.active2{
+	background-color: var(--color3);
 }
