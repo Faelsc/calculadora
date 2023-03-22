@@ -9,17 +9,16 @@
 }
 
 :root{
-	--color1: hsl(222, 26%, 31%);
-	--color2: hsl(0, 0%, 90%);
-	--color3: hsl(268, 75%, 9%);
-	--color4: hsl(0, 5%, 81%);
-	--color5: hsl(268, 71%, 12%);
+	--cor1: hsl(222, 26%, 31%);
+	--cor2: hsl(0, 0%, 90%);
+	--cor3: hsl(268, 75%, 9%);
+	--cor4: hsl(0, 5%, 81%);
+	--cor5: hsl(268, 71%, 12%);
 }
-
 body{
 	width: 100%;
 	max-width: 1440px;
-	background-color: var(--color1);
+	background-color: var(--cor1);
 	height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -27,12 +26,12 @@ body{
 	flex-direction: column;
 
 }
-body.active1{
-	background-color: var(--color2);
+body.ativo1{
+	background-color: var(--cor2);
 }
-body.active1 .btn{
-	background-color: var(--color4);
+body.ativo1 .botao{
+	background-color: var(--cor4);
 }
-body.active2{
-	background-color: var(--color3);
+body.ativo2{
+	background-color: var(--cor3);
 }
